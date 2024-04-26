@@ -49,24 +49,20 @@
     height: 34px;
 }
 
-#headerStyle1 {
+.hStyle {
     position: absolute;
-    top: 47px;
-    left: 840px;
+    top: 50px;
+    left: 825px;
     background-color: var(--secondary);
     border-radius: 20px;
     width: 38px;
     height: 4px;
 }
 
+
 #headerStyle2 {
-    position: absolute;
-    top: 47px;
-    left: 880px;
-    background-color: var(--secondary);
-    border-radius: 20px;
+    left: 865px;
     width: 5px;
-    height: 4px;
 }
 
 #img1 {
@@ -82,12 +78,12 @@
     font-family: 'Rubik';
 }
 
-#bt {
+.bt {
     color: white;
     background-color: rgb(93, 70, 194);
 }
 
-#bt:hover {
+.bt:hover {
     color: orange;
 }
 
@@ -153,10 +149,6 @@
     transform: scale(1.5);
 }
 
-#centerP {
-    font-size: 30px;
-    font-weight: 470;
-}
 
 .p1lastTextDiv {
     font-size: 32px;
@@ -170,9 +162,6 @@
     letter-spacing: 0.5px;
 }
 
-#rect4 {
-    border-radius: 5px;
-}
 
 #p1lastDiv {
     font-size: 30px;
@@ -182,4 +171,29 @@
 #dimg {
     margin-top: 80px;
     height: 80px;
+}
+
+#two {
+    font-size: 25px;
+    font-weight: 440;
+}
+
+.bRadius5{
+    border-radius: 5px;
+}
+#for{
+    background-color: var(--box_bg);
+    font-family: Poppins;
+}
+#myform{
+    width: 470px;
+}
+#addon2{
+    background-color: var(--secondary);
+    font-size: 14px;
+    font-weight: 310;
+}
+
+footer{
+    background-color: var(--black-700);
 }
