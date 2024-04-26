@@ -1,0 +1,512 @@
+/* 1. don't modify this style */
+* {
+  padding: 0;
+  margin: 0;
+
+  box-sizing: border-box;
+}
+
+/* 2. we use :root for default variables */
+:root {
+  /* --"somekey-attr": "somevalue" i.e : */
+  --black-700: #000;
+  --secondary: #FA8305;
+  --blueGradiant: #3B2A9F;
+  --box_bg: #1C140F;
+  --primary-100: #5141AA;
+
+}
+/* 3. and we use it like this */
+.elementOne {
+  /* var(--"somekey-attr") */
+  background-color: var(--black-700);
+}
+@font-face {
+  font-family: Poppins;
+  src: url(../assets/fonts/Poppins-Medium.ttf);
+}
+@font-face {
+  font-family: Rubik;
+  src: url(../assets/fonts/Rubik-VariableFont_wght.ttf);
+}
+
+/* good luck */
+body{
+  background-color: var(--blueGradiant);
+  font-family: Poppins;
+color: white;
+}
+ul li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+header{
+  width: 100px;
+}
+.logo{
+  font-weight: 680;
+  font-size: 16px;
+  margin-top: 35px;
+  margin-left: 58px;
+}
+header .menu{
+  position: relative;
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  width: 637px;
+  position: absolute;
+  top: 32px;
+  right: 60px;
+  line-height: 44px;
+}
+header .menu .one a{
+  margin: 4%;
+  color: white;
+}
+header .menu .two{
+  background-color: var(--secondary);
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 10px 25px;
+  border-radius: 6px;
+  font-size: 13px;
+  line-height: 19.5px;
+}
+header .activeLink{
+  width: 65px;
+  height: 6px;
+  position: absolute;
+  top: 73px;
+  left: 820px;
+}
+ header .activeLink > div{
+  width: 50%;
+  height: 100%;
+  float: left;
+  border-radius: 20px;
+  margin: 0 5%;
+}
+header .activeLink .first{
+  background-color: var(--secondary);
+  width: 75%;
+}
+header .activeLink .seconde{
+  width: 15%;
+  background-color: var(--secondary);
+}
+.proved .first .one{
+  color: var(--secondary);
+  font-size: 20px;
+}
+.proved{
+  clear: both;
+  width: 537px;
+  height: 510px;
+  margin-left: 148px;
+  margin-top: 103px;
+  font-weight: 700;
+  color: white;
+}
+.proved .first .two{
+  font-size: 50px;
+  line-height: 77px;
+  margin-top: 17px;
+}
+.proved .first .three{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 32px;
+  margin-top: 26px;
+}
+.proved .seconde{
+  margin-top: 48px;
+  background-color: var(--secondary);
+  border-radius: 50px;
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: 500;
+  width: 195px;
+  line-height: 24px;
+  color: white;
+}
+.bigimageOne{
+  width: 400px;
+  margin-left: 773px;
+  position: absolute;
+  top: 0;
+}
+.bigimageOne img{
+  margin-top: 100px;
+  width: 100%;
+  height: 661px;
+}
+.unity{
+  width: 96px;
+  height: 30px;
+  position: absolute;
+  left: 650px;
+  top: 409px;
+}
+.unity img{
+  width: 100%;
+  height: 100%;
+}
+.cry{
+  width: 101px;
+  height: 99px;
+  position: absolute;
+  left: 828px;
+  top: 202px;
+}
+.cry img{
+  width: 100%;
+  height: 100%;
+}
+.unreal{
+  width: 59px;
+  height: 64px;
+  position: absolute;
+  right: 200px;
+  top: 218px;
+}
+.unreal img{
+  width: 100%;
+  height: 100%;
+}
+.TrendGameone{
+  font-family: Rubik;
+  color: white;
+  margin-top: 180px;
+  position: relative;
+}
+.TrendGameone .one{
+  position: absolute;
+  left: 148px;
+}
+.TrendGameone h1{
+  font-size: 31px;
+  font-weight: 700;
+  line-height: 56px;
+}
+.TrendGameone .two{
+  background-color: var(--primary-100);
+  position: absolute;
+  right: 146px;
+  font-size: 20px;
+  width: 139px;
+  height: 57px;
+  padding: 18.5px 30px;
+  border-radius: 10px;
+}
+.TrendGametwo{
+  margin-top: 107px;
+  margin-left: 148px;
+  margin-right: 148px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.TrendGametwo ul li{
+  width: 22.5%;
+  height: 277px;
+  float: left;
+  margin: 110px 1.66%;
+}
+.TrendGametwo ul li article{
+  width: 100%;
+  height: 100%;
+}
+.TrendGametwo ul li img{
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  filter: blur(1.5px);
+}
+.TrendGametwo ul li img:hover{
+  filter: blur(0px);
+}
+.TrendGametwo ul li p{
+  margin-top: 25px;
+  font-size: 22px;
+  font-weight: 500;
+}
+.TrendGametwo ul li p:hover{
+  font-size: 24px;
+}
+
+
+.LoremOne{
+  clear: both;
+  width: 826px;
+  height: 132px;
+  position: absolute;
+  top: 1480px;
+  left: 320px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 66px;
+  color: #FFFFFF;
+}
+
+.LoremTwo{
+  color: #FFFFFF;
+  width: 545px;
+  height: 173px;
+  position: absolute;
+  top: 1679px;
+  left: 148px;
+  text-align: justify;
+}
+.LoremTwo .one{
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 55px;
+}
+.LoremTwo .two{
+  margin-top: 32px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.bigimageTwo{
+  position: absolute;
+  top: 1903px;
+  left: 147px;
+  right: 147px;
+  height: 462px;
+}
+.bigimageTwo img{
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+}
+
+.Recent{
+  clear: both;
+  position: absolute;
+  top: 2508px;
+  left: 135px;
+  right: 136px;
+  color: #FFFFFF;
+}
+.Recent .text{
+  text-align: center;
+  width: 497px;
+  margin: 0 30%;
+}
+.Recent .text h1{
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 57px;
+}
+.Recent .text p{
+  margin-top: 15px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 26.25px;
+}
+.Recent .images{
+  margin-top: 71px
+}
+.Recent .images .one{
+  display: flex;
+}
+.Recent .images .one div{
+  margin: 0 4%;
+}
+.Recent .images .one img{
+  width: 100%;
+  height: 223px;
+}
+.Recent .images .two{
+  margin-top: 33px;
+  display: flex;
+}
+.Recent .images .two div{
+  margin: 0 1.5%;
+}
+.Recent .images .two img{
+  width: 100%;
+  height: 223px;
+}
+.Recent img{
+  border-radius: 20px;
+}
+
+.see{
+  color: #FFFFFF;
+  background-color: #FFFFFF1C;
+  position: absolute;
+  top: 3258px;
+  left: 655px;
+  padding: 10px 30px;
+  border-radius: 10px;
+  font-family: rubik;
+}
+
+
+.Stay{
+  color: #FFFFFF;
+  position: absolute;
+  top: 3420px;
+  left: 136px;
+  right: 136px;
+}
+.Stay .Lorem{
+  width: 545px;
+}
+.Stay .Lorem h1{
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 56px;
+}
+.Stay .Lorem p{
+  margin-top: 32px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+}
+.Stay .input{
+  background-color: var(--box_bg);
+  margin-top: 74px;
+  height: 189px;
+  position: relative;
+  border-radius: 15px;
+}
+.Stay .input .one{
+  position: absolute;
+  top: 40px;
+  left: 56px;
+  right: 478px;
+}
+.Stay .input .one h1{
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+}
+.Stay .input .one p{
+  margin-top: 10px;
+  font-weight: 5400;
+  font-size: 17px;
+  line-height: 25px;
+}
+.Stay .input .two{
+  position: absolute;
+  top: 71px;
+  right: 50px;
+  color: #898989;
+  background-color: #FFFFFF;
+  width: 381px;
+  border-radius: 8px;
+}
+.Stay .input .two{
+  padding: 6px;
+}
+.Stay .input .two  form input{
+  margin-left: 20px;
+  border: none;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+}
+.Stay .input .two  form button{
+  background-color: var(--secondary);
+  padding: 10px 17px;
+  border: none;
+  border-radius: 8px;
+  margin-left: 90px;
+  color: #FFFFFF;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 19.5px;
+  text-align: center;
+}
+
+
+
+footer{
+   width: 100%;
+  /*height: 376px; */
+  position: absolute;
+  top: 3975px;
+  background-color: rgba(7, 7, 7, 1);
+  color: #FFFFFF;
+}
+footer .all{
+  margin-top: 79px;
+  margin-bottom: 29px;
+}
+footer .all .menu{
+  margin: 0 110px;
+}
+footer .all .menu div{
+  float: left;
+  margin:0 3.3%;
+  box-sizing: border-box;
+}
+footer .menu .lego{
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+}
+footer .menu .about ul{
+  font-weight: 500;
+  font-size: 17.5px;
+  line-height: 30px;
+}
+footer .menu .about li{
+  margin:  -3px 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
+footer .menu .Contact p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+}
+footer .menu .Contact p:first-child{
+  font-size: 17.5px;
+  font-weight: 500;
+  line-height: 30px;
+}
+footer .icons{
+  height: 160px;
+  position: relative;
+}
+footer .icons .allicon{
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 110px;
+}
+footer .icons .allicon div{
+    padding: 11px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    font-size: 13px;
+}
+footer .icons i{
+  color: rgba(0, 0, 0, 1);
+}
+footer .Copyright{
+  width: 100%;
+  border-top: 0.8px solid rgba(210, 210, 210, 1);
+  text-align: center;
+}
+footer .Copyright p{
+  margin-top: 29px;
+  font-size: 13px;
+}
+footer .Copyright span{
+  font-weight:900;
+  font-size: 14.5px;
+}
+
+
+
