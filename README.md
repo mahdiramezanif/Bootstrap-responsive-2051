@@ -1,39 +1,42 @@
-# Bootstrap Responsive Gaming Website
+# GAMiFY — Responsive Gaming Landing Page
 
-This repository is for practicing Bootstrap for a gaming website.
+A gaming-themed **responsive website practice project** implemented with HTML, CSS, Bootstrap, and JavaScript. It includes a landing page, a games page, responsive sections, and custom visual assets.
 
-## Attention
+> **Attribution:** This repository is a fork of [`PEZHMAN-KM/Bootstrap-responsive`](https://github.com/PEZHMAN-KM/Bootstrap-responsive), originally provided as a front-end exercise. The pages here represent the work completed in that exercise; the underlying assignment and design brief originated from the upstream project.
 
-Ensure you enter the last four digits of your student number at the end of the forked repo name.
+## Features
+- Responsive layout using Bootstrap 5
+- Gaming-themed landing-page sections and cards
+- Secondary [`games.html`](games.html) page
+- Custom styles and browser-side scripts
+- Navigation and image assets
 
-## Description
+## Technology
+HTML5, CSS3, Bootstrap 5.2, JavaScript, Font Awesome.
 
-This is the third practice session focusing on bootstrap components into the gaming website project.
+## Preview locally
 
-## Instructions
+No build step is required. Clone the repository and open `index.html` in your browser, or serve the folder using a local static server:
 
-Please follow these instructions carefully:
+```bash
+git clone https://github.com/mahdiramezanif/Bootstrap-responsive-2051.git
+cd Bootstrap-responsive-2051
+python -m http.server 8000
+```
 
-1. Fork this repository.
-2. Clone the forked repository to your local machine.
-3. Design the website based on the [Figma design](https://www.figma.com/file/auNugnfKF5eREyI5PqGurR/gaming-website?type=design&node-id=0%3A1&mode=design&t=wodZzQgJISCRspQE-1), focusing only on phase 1.
+Then visit http://localhost:8000.
 
-4. Ensure the directory structure as follows:
+## Project layout
 
-- assets
-  - -- fonts
-  - --images
-- styles
-  - --bootstrap(if you are using offline version)
-- scripts
-- index.html
-- games.html
+```text
+index.html
+ames.html       # Not a file: use games.html
+styles/myStyle.css
+scripts/main.js
+assets/
+```
 
-5. Try to Use minimum pure styles and use bootstrap instead
-6. Pay attention to commented messages in the Figma design.
-7. Make the palette for default variables using `:root` in CSS.
-8. Copy your last projects into this directory.
-9. If you have any problem in merging you can use `git push origin <your_branch_name> --force`
-10. [Bootstrap Document](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+The actual second HTML page is [`games.html`](games.html). The project's original design reference was a [Figma gaming website exercise](https://www.figma.com/file/auNugnfKF5eREyI5PqGurR/gaming-website).
 
-# GOOD LUCK
+## Notes
+This is a learning exercise; some text and links are placeholders rather than a complete game catalog. Do not remove the attribution to the upstream project when publishing updates.
